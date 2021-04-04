@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scenes/levels/Controls.gd" type="Script" id=1]
+[ext_resource path="res://textures/misc/controls.png" type="Texture" id=2]
+[ext_resource path="res://fonts/dialog.tres" type="DynamicFont" id=3]
+[ext_resource path="res://textures/props/back.png" type="Texture" id=4]
+
+[node name="Controls" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="controls" type="TextureRect" parent="."]
+anchor_right = 3.2
+anchor_bottom = 3.33333
+rect_scale = Vector2( 0.312, 0.3 )
+texture = ExtResource( 2 )
+stretch_mode = 3
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button" type="Button" parent="."]
+anchor_left = 0.0477904
+anchor_top = 0.0574031
+anchor_right = 0.18529
+anchor_bottom = 0.146292
+margin_right = -7.62939e-06
+focus_neighbour_left = NodePath("../quit")
+focus_neighbour_top = NodePath("../quit")
+focus_neighbour_right = NodePath("../controls")
+focus_neighbour_bottom = NodePath("../continue")
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0.364706, 0.364706, 0.364706, 1 )
+text = "Back"
+icon = ExtResource( 4 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": true,
+"_editor_description_": ""
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

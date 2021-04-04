@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Love_at_first_Ice_Luzias_theme.ogg-7751777e405805240b44134ff7692486.oggstr"
+
+[deps]
+
+source_file="res://music/Love_at_first_Ice_Luzias_theme.ogg"
+dest_files=[ "res://.import/Love_at_first_Ice_Luzias_theme.ogg-7751777e405805240b44134ff7692486.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

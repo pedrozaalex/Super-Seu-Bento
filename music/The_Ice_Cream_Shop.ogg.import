@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The_Ice_Cream_Shop.ogg-5e25bd7aa6f018a49eb2a39a7e9d327c.oggstr"
+
+[deps]
+
+source_file="res://music/The_Ice_Cream_Shop.ogg"
+dest_files=[ "res://.import/The_Ice_Cream_Shop.ogg-5e25bd7aa6f018a49eb2a39a7e9d327c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

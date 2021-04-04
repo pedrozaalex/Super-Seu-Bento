@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/In_the_House.ogg-f1d678ef396ad04a109e87e7517beb7f.oggstr"
+
+[deps]
+
+source_file="res://music/In_the_House.ogg"
+dest_files=[ "res://.import/In_the_House.ogg-f1d678ef396ad04a109e87e7517beb7f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

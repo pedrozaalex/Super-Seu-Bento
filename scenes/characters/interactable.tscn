@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://textures/pj/frames/idle_down0000.png" type="Texture" id=1]
+[ext_resource path="res://scenes/characters/interactable.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 149.776, 37.3826 )
+
+[node name="interactable" type="Area2D"]
+scale = Vector2( 0.259626, 0.259626 )
+collision_layer = 65
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Area2D" type="Sprite" parent="."]
+position = Vector2( 0, -58.906 )
+texture = ExtResource( 1 )
