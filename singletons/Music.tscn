@@ -146,6 +146,7 @@ pause_mode = 2
 script = SubResource( 1 )
 
 [node name="A" type="AudioStreamPlayer" parent="."]
+volume_db = -10.0
 bus = "Music"
 
 [node name="B" type="AudioStreamPlayer" parent="."]

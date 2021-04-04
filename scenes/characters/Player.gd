@@ -39,6 +39,7 @@ func _ready():
 
 func _physics_process(_delta):
 	## PROCESS STATES
+	
 	match state:
 		STATE_BLOCKED:
 			new_anim = "idle_" + facing
@@ -53,6 +54,7 @@ func _physics_process(_delta):
 					Input.is_action_pressed("move_up")
 				):
 					state = STATE_WALKING
+			_update_facing()
 			new_anim = "idle_" + facing
 			
 			if Input.is_action_just_released("interact") and interact_area:
@@ -94,6 +96,8 @@ func _physics_process(_delta):
 			
 			if linear_vel.length() > 5:
 				new_anim = "walk_" + facing
+				if linear_vel.x < 0 && linear_vel.y > 0:
+					new_anim = "walk_down_right"
 			else:
 				goto_idle()
 			pass
@@ -101,12 +105,18 @@ func _physics_process(_delta):
 	## UPDATE ANIMATION
 	if new_anim != anim:
 		anim = new_anim
-		$anims.play(anim)
-	pass
+		if anim == "walk_down_right":
+			$AnimatedSprite.play("walk_down")
+			$AnimatedSprite.flip_h = true
+			return
+		$AnimatedSprite.play(anim)
+		$AnimatedSprite.flip_h = false
+	return
 
 
 func _on_dialog_started():
 	state = STATE_BLOCKED
+
 
 func _on_dialog_ended(event_type, _event):
 	if event_type == "close_dialog":

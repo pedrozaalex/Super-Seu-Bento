@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://textures/planta_casa.jpg" type="Texture" id=1]
 [ext_resource path="res://tiles/WoodFloorboard.tres" type="TileSet" id=2]
@@ -6,13 +6,17 @@
 [ext_resource path="res://tiles/WallPapers.tres" type="TileSet" id=4]
 [ext_resource path="res://scenes/characters/Player.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/misc/MusicTrack.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/levels/HouseStart.gd" type="Script" id=7]
+[ext_resource path="res://textures/characters/seu bento velho/sofa.png" type="Texture" id=8]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource( 7 )
 
 [node name="YSort" type="YSort" parent="."]
 
 [node name="Player" parent="YSort" instance=ExtResource( 5 )]
 position = Vector2( 301.606, -60.3212 )
+WALK_SPEED = 100
 
 [node name="Floor" type="TileMap" parent="YSort"]
 z_index = -1
@@ -51,3 +55,7 @@ __meta__ = {
 music_track = "res://music/In_the_House.ogg"
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="sofa" type="Sprite" parent="."]
+position = Vector2( 181.965, -57.4365 )
+texture = ExtResource( 8 )

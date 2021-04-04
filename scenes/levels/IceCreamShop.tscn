@@ -12,27 +12,27 @@
 [ext_resource path="res://textures/ui/connect-o-meter-progress-inside-bar.png" type="Texture" id=10]
 [ext_resource path="res://textures/ui/progress-bar-min-label.png" type="Texture" id=11]
 
-[sub_resource type="Curve" id=2]
+[sub_resource type="Curve" id=1]
 max_value = 100.0
 _data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 100 ), 330.909, 0.0, 0, 0 ]
 
-[sub_resource type="CurveTexture" id=3]
-curve = SubResource( 2 )
+[sub_resource type="CurveTexture" id=2]
+curve = SubResource( 1 )
 
-[sub_resource type="Curve" id=4]
+[sub_resource type="Curve" id=3]
 min_value = -1.0
 _data = [ Vector2( 0, -1 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
 
-[sub_resource type="CurveTexture" id=5]
-curve = SubResource( 4 )
+[sub_resource type="CurveTexture" id=4]
+curve = SubResource( 3 )
 
-[sub_resource type="Curve" id=6]
+[sub_resource type="Curve" id=5]
 _data = [ Vector2( 0.00549451, 0.806818 ), 0.0, -0.206818, 0, 0, Vector2( 1, 0 ), -2.08617, 0.0, 0, 0 ]
 
-[sub_resource type="CurveTexture" id=7]
-curve = SubResource( 6 )
+[sub_resource type="CurveTexture" id=6]
+curve = SubResource( 5 )
 
-[sub_resource type="ParticlesMaterial" id=1]
+[sub_resource type="ParticlesMaterial" id=7]
 emission_shape = 2
 emission_box_extents = Vector3( 1, 2.5, 1 )
 flag_disable_z = true
@@ -41,11 +41,11 @@ gravity = Vector3( 0, 0, 0 )
 initial_velocity = 40.0
 orbit_velocity = 0.0
 orbit_velocity_random = 0.0
-damping_curve = SubResource( 3 )
-scale_curve = SubResource( 7 )
+damping_curve = SubResource( 2 )
+scale_curve = SubResource( 6 )
 hue_variation = 1.0
 hue_variation_random = 1.0
-hue_variation_curve = SubResource( 5 )
+hue_variation_curve = SubResource( 4 )
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 7 )
@@ -110,7 +110,7 @@ __meta__ = {
 [node name="Particles2D" type="Particles2D" parent="CanvasLayer/TextureProgress"]
 position = Vector2( 6.24284, 8.03184 )
 amount = 7
-process_material = SubResource( 1 )
+process_material = SubResource( 7 )
 texture = ExtResource( 8 )
 
 [node name="Sprite" type="Sprite" parent="CanvasLayer/TextureProgress"]

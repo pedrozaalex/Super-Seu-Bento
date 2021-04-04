@@ -1,0 +1,76 @@
+{ "frames": [
+   {
+    "filename": "seu_bento_vovo_parado_frente__sombra 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "sourceSize": { "w": 27, "h": 53 },
+    "duration": 1200
+   },
+   {
+    "filename": "seu_bento_vovo_parado_frente__sombra 1.aseprite",
+    "frame": { "x": 27, "y": 0, "w": 27, "h": 53 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "sourceSize": { "w": 27, "h": 53 },
+    "duration": 740
+   },
+   {
+    "filename": "seu_bento_vovo_parado_frente__sombra 2.aseprite",
+    "frame": { "x": 54, "y": 0, "w": 27, "h": 53 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "sourceSize": { "w": 27, "h": 53 },
+    "duration": 1500
+   },
+   {
+    "filename": "seu_bento_vovo_parado_frente__sombra 3.aseprite",
+    "frame": { "x": 81, "y": 0, "w": 27, "h": 53 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "sourceSize": { "w": 27, "h": 53 },
+    "duration": 270
+   },
+   {
+    "filename": "seu_bento_vovo_parado_frente__sombra 4.aseprite",
+    "frame": { "x": 108, "y": 0, "w": 27, "h": 53 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "sourceSize": { "w": 27, "h": 53 },
+    "duration": 200
+   },
+   {
+    "filename": "seu_bento_vovo_parado_frente__sombra 5.aseprite",
+    "frame": { "x": 135, "y": 0, "w": 27, "h": 53 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "sourceSize": { "w": 27, "h": 53 },
+    "duration": 270
+   },
+   {
+    "filename": "seu_bento_vovo_parado_frente__sombra 6.aseprite",
+    "frame": { "x": 162, "y": 0, "w": 27, "h": 53 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 27, "h": 53 },
+    "sourceSize": { "w": 27, "h": 53 },
+    "duration": 1000
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "seu_bento_vovo_parado_frente__sombra.png",
+  "format": "RGBA8888",
+  "size": { "w": 189, "h": 53 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

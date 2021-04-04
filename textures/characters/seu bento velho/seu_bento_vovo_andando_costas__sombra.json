@@ -1,0 +1,49 @@
+{ "frames": [
+   {
+    "filename": "seu_bento_vovo_andando_costas__sombra 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 54 },
+    "sourceSize": { "w": 26, "h": 54 },
+    "duration": 300
+   },
+   {
+    "filename": "seu_bento_vovo_andando_costas__sombra 1.aseprite",
+    "frame": { "x": 26, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 54 },
+    "sourceSize": { "w": 26, "h": 54 },
+    "duration": 500
+   },
+   {
+    "filename": "seu_bento_vovo_andando_costas__sombra 2.aseprite",
+    "frame": { "x": 52, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 54 },
+    "sourceSize": { "w": 26, "h": 54 },
+    "duration": 300
+   },
+   {
+    "filename": "seu_bento_vovo_andando_costas__sombra 3.aseprite",
+    "frame": { "x": 78, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 54 },
+    "sourceSize": { "w": 26, "h": 54 },
+    "duration": 400
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "seu_bento_vovo_andando_costas__sombra.png",
+  "format": "RGBA8888",
+  "size": { "w": 104, "h": 54 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}
