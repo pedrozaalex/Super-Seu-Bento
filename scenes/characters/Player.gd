@@ -19,7 +19,7 @@ var new_anim = ""
 
 enum { STATE_BLOCKED, STATE_IDLE, STATE_WALKING }
 
-var state = STATE_IDLE
+var state = STATE_BLOCKED
 
 var interact_area
 
@@ -85,7 +85,6 @@ func _physics_process(_delta):
 				get_tree().current_scene.get_node("CanvasLayer").add_child(new_dialog)
 				_on_dialog_started()
 				new_dialog.connect("event_start", self, "_on_dialog_ended", [])
-				new_dialog.connect("correct_choice", self, "_on_player_correct_choice")
 			
 			target_speed *= WALK_SPEED
 			#linear_vel = linear_vel.linear_interpolate(target_speed, 0.9)
@@ -119,6 +118,8 @@ func _on_dialog_started():
 
 
 func _on_dialog_ended(event_type, _event):
+	print("event_type: ", event_type)
+	print("event_type: ", _event)
 	if event_type == "close_dialog":
 		state = STATE_IDLE
 

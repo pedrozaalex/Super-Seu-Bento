@@ -1,0 +1,49 @@
+{ "frames": [
+   {
+    "filename": "seu_bento_novo_andando_direita__sombra 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 29, "h": 55 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 55 },
+    "sourceSize": { "w": 29, "h": 55 },
+    "duration": 300
+   },
+   {
+    "filename": "seu_bento_novo_andando_direita__sombra 1.aseprite",
+    "frame": { "x": 29, "y": 0, "w": 29, "h": 55 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 55 },
+    "sourceSize": { "w": 29, "h": 55 },
+    "duration": 300
+   },
+   {
+    "filename": "seu_bento_novo_andando_direita__sombra 2.aseprite",
+    "frame": { "x": 58, "y": 0, "w": 29, "h": 55 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 55 },
+    "sourceSize": { "w": 29, "h": 55 },
+    "duration": 300
+   },
+   {
+    "filename": "seu_bento_novo_andando_direita__sombra 3.aseprite",
+    "frame": { "x": 87, "y": 0, "w": 29, "h": 55 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 55 },
+    "sourceSize": { "w": 29, "h": 55 },
+    "duration": 300
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "seu_bento_novo_andando_direita__sombra.png",
+  "format": "RGBA8888",
+  "size": { "w": 116, "h": 55 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

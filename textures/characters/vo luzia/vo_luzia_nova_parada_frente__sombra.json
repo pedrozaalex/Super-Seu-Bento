@@ -1,0 +1,112 @@
+{ "frames": [
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 1000
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 1.aseprite",
+    "frame": { "x": 33, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 400
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 2.aseprite",
+    "frame": { "x": 66, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 100
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 3.aseprite",
+    "frame": { "x": 99, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 200
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 4.aseprite",
+    "frame": { "x": 132, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 100
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 5.aseprite",
+    "frame": { "x": 165, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 1000
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 6.aseprite",
+    "frame": { "x": 198, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 400
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 7.aseprite",
+    "frame": { "x": 231, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 100
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 8.aseprite",
+    "frame": { "x": 264, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 200
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 9.aseprite",
+    "frame": { "x": 297, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 100
+   },
+   {
+    "filename": "vo_luzia_nova_parada_frente__sombra 10.aseprite",
+    "frame": { "x": 330, "y": 0, "w": 33, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 33, "h": 58 },
+    "sourceSize": { "w": 33, "h": 58 },
+    "duration": 300
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "vo_luzia_nova_parada_frente__sombra.png",
+  "format": "RGBA8888",
+  "size": { "w": 363, "h": 58 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

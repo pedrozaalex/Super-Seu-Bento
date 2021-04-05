@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://textures/characters/vo luzia/vo_luzia_nova_parada_frente__sombra.res" type="SpriteFrames" id=1]
+
+[node name="Luzia" type="AnimatedSprite"]
+frames = ExtResource( 1 )
+frame = 5
+playing = true

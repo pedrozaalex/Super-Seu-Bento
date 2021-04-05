@@ -1,0 +1,76 @@
+{ "frames": [
+   {
+    "filename": "tela_de_carregamento_memoria_1_normal_ 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "sourceSize": { "w": 320, "h": 180 },
+    "duration": 150
+   },
+   {
+    "filename": "tela_de_carregamento_memoria_1_normal_ 1.aseprite",
+    "frame": { "x": 320, "y": 0, "w": 320, "h": 180 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "sourceSize": { "w": 320, "h": 180 },
+    "duration": 150
+   },
+   {
+    "filename": "tela_de_carregamento_memoria_1_normal_ 2.aseprite",
+    "frame": { "x": 640, "y": 0, "w": 320, "h": 180 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "sourceSize": { "w": 320, "h": 180 },
+    "duration": 150
+   },
+   {
+    "filename": "tela_de_carregamento_memoria_1_normal_ 3.aseprite",
+    "frame": { "x": 960, "y": 0, "w": 320, "h": 180 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "sourceSize": { "w": 320, "h": 180 },
+    "duration": 150
+   },
+   {
+    "filename": "tela_de_carregamento_memoria_1_normal_ 4.aseprite",
+    "frame": { "x": 1280, "y": 0, "w": 320, "h": 180 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "sourceSize": { "w": 320, "h": 180 },
+    "duration": 150
+   },
+   {
+    "filename": "tela_de_carregamento_memoria_1_normal_ 5.aseprite",
+    "frame": { "x": 1600, "y": 0, "w": 320, "h": 180 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "sourceSize": { "w": 320, "h": 180 },
+    "duration": 150
+   },
+   {
+    "filename": "tela_de_carregamento_memoria_1_normal_ 6.aseprite",
+    "frame": { "x": 1920, "y": 0, "w": 320, "h": 180 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 180 },
+    "sourceSize": { "w": 320, "h": 180 },
+    "duration": 200
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "tela_de_carregamento_memoria_1_normal_.png",
+  "format": "RGBA8888",
+  "size": { "w": 2240, "h": 180 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

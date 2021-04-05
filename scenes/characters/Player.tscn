@@ -53,7 +53,7 @@ WALK_SPEED = 150
 position = Vector2( 0, -27 )
 frames = ExtResource( 1 )
 animation = "walk_right"
-playing = true
+frame = 1
 
 [node name="hitbox" type="CollisionShape2D" parent="."]
 position = Vector2( 0, -6 )
